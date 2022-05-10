@@ -65,7 +65,6 @@ const EditProductScreen = () => {
         price,
         countInStock,
         image,
-        numReviews: 0,
       })
     );
   };

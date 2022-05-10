@@ -28,13 +28,6 @@ header .navbar-light .navbar-nav .nav-link:hover {
 
 /** Product Style **/
 
-.rating {
-  margin: 15px 0;
-}
-.rating i {
-  color: #f4f400;
-}
-
 .carousel {
   position: relative;
   z-index: 1;

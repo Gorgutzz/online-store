@@ -9,8 +9,6 @@ const products = [
     category: "Graphics",
     price: 599.99,
     countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: "2",
@@ -22,8 +20,6 @@ const products = [
     category: "Monitor",
     price: 1599.99,
     countInStock: 7,
-    rating: 4.0,
-    numReviews: 8,
   },
   {
     _id: "3",
@@ -35,8 +31,6 @@ const products = [
     category: "CPU",
     price: 369.99,
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: "4",
@@ -48,8 +42,6 @@ const products = [
     category: "Laptop",
     price: 999.0,
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: "5",
@@ -61,8 +53,6 @@ const products = [
     category: "Laptop",
     price: 1229.99,
     countInStock: 7,
-    rating: 3.5,
-    numReviews: 10,
   },
   {
     _id: "6",
@@ -74,8 +64,28 @@ const products = [
     category: "Chair",
     price: 299.99,
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
+  },
+  {
+    _id: "7",
+    name: "Pro Acro 3D Black Smart Massage Chair",
+    image: "/images/chair2.jpg",
+    description:
+      "Features Voice Control, Body Scan, Health Monitor, Smart Learning.",
+    brand: "TITAN",
+    category: "Chair",
+    price: 2799.99,
+    countInStock: 2,
+  },
+  {
+    _id: "8",
+    name: "ALIENWARE S5000 GAMING CHAIR",
+    image: "/images/chair3.jpg",
+    description:
+      "The S5000 is truly a gamer’s delight and will hit the sweet spot for extreme gamers. ",
+    brand: "ALIENWARE",
+    category: "Chair",
+    price: 379.99,
+    countInStock: 5,
   },
 ];
 

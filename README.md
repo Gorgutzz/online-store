@@ -6,8 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-# Run frontend
+# Run App
 npm run dev
 
-# Run backend 
+# Run backend
 npm run server
+
+# Seed Database
+node backend/seeder

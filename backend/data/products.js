@@ -8,8 +8,6 @@ const products = [
     category: "Graphics",
     price: 599.99,
     countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     name: "49-inch Odyssey G9 Gaming Monitor",
@@ -20,8 +18,6 @@ const products = [
     category: "Monitor",
     price: 1599.99,
     countInStock: 7,
-    rating: 4.0,
-    numReviews: 8,
   },
   {
     name: "Intel Core i7-12700K 3.6 GHz 12-Core LGA 1700 Processor",
@@ -32,20 +28,16 @@ const products = [
     category: "CPU",
     price: 369.99,
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     name: "ASUS 15.6 Republic of Gamers Strix G15 Series Gaming Laptop",
-    image: "/images/asus1",
+    image: "/images/asus1.jpg",
     description:
       "Take your gaming and content creation experience to the next level with the ASUS 15.6 ROG STRIX G15 Gaming Laptop.",
     brand: "ASUS",
     category: "Laptop",
     price: 999.0,
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     name: "ASUS 15.6 TUF Gaming F15 Series Gaming Laptop",
@@ -56,8 +48,6 @@ const products = [
     category: "Laptop",
     price: 1229.99,
     countInStock: 7,
-    rating: 3.5,
-    numReviews: 10,
   },
   {
     name: "Spieltek 300 Series Gaming Chair",
@@ -68,8 +58,26 @@ const products = [
     category: "Chair",
     price: 299.99,
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
+  },
+  {
+    name: "Pro Acro 3D Black Smart Massage Chair",
+    image: "/images/chair2.jpg",
+    description:
+      "Features Voice Control, Body Scan, Health Monitor, Smart Learning.",
+    brand: "TITAN",
+    category: "Chair",
+    price: 2799.99,
+    countInStock: 2,
+  },
+  {
+    name: "ALIENWARE S5000 GAMING CHAIR",
+    image: "/images/chair3.jpg",
+    description:
+      "The S5000 is truly a gamer’s delight and will hit the sweet spot for extreme gamers. ",
+    brand: "ALIENWARE",
+    category: "Chair",
+    price: 379.99,
+    countInStock: 5,
   },
 ];
 
