@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  ListGroup,
-  Row,
-  Col,
-  Image,
-  FormControl,
-  Button,
-  Card,
-} from "react-bootstrap";
+import { ListGroup, Row, Col, Image, FormControl, Button, Card } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import Message from "../components/Message";
@@ -25,7 +17,7 @@ const CartScreen = () => {
 
   return (
     <>
-      <Meta title="Clothshop | Cart" />
+      <Meta title="Shop | Cart" />
       <Link className="btn btn-light my-3" to="/">
         Go Home
       </Link>

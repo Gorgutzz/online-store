@@ -33,7 +33,7 @@ const LoginScreen = () => {
 
   return (
     <>
-      <Meta title="Clothshop | Login" />
+      <Meta title="Shop | Login" />
       <FormContainer>
         <h2>Login</h2>
         <Form onSubmit={handleSubmit}>

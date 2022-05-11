@@ -42,7 +42,7 @@ const RegisterScreen = () => {
 
   return (
     <>
-      <Meta title="Clothshop | Register" />
+      <Meta title="Shop | Register" />
       <FormContainer>
         <h2>Sign Up</h2>
         <Form onSubmit={handleSubmit}>

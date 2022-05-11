@@ -52,7 +52,7 @@ if (process.env.NODE_ENV === "production") {
 } else {
   // Default Route
   app.get("/api", (req, res) => {
-    res.status(201).json({ success: true, message: "Welcome Cloth Shop APP" });
+    res.status(201).json({ success: true, message: "Welcome To Shop" });
   });
 }
 

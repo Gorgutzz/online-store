@@ -6,6 +6,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+# Install
+
+npm run install in main directory and in frontend folder
+
+create ENV File:
+
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = mongodb uri
+JWT_SECRET = 'abc123'
+
+
 # Run App
 npm run dev
 

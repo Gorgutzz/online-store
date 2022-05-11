@@ -5,10 +5,7 @@ import { Form, Button } from "react-bootstrap";
 import Message from "../components/Message";
 import Loading from "../components/Loading";
 import FormContainer from "../components/FormContainer";
-import {
-  listProductDetails,
-  updateProduct,
-} from "../redux/actions/productActions";
+import { listProductDetails, updateProduct } from "../redux/actions/productActions";
 import axios from "axios";
 
 const EditProductScreen = () => {

@@ -7,11 +7,7 @@ import Loading from "../components/Loading";
 import Message from "../components/Message";
 import { useSelector, useDispatch } from "react-redux";
 import CheckoutSteps from "../components/CheckoutSteps";
-import {
-  getOrderDetails,
-  payOrder,
-  deliverOrder,
-} from "../redux/actions/orderActions";
+import { getOrderDetails, payOrder, deliverOrder } from "../redux/actions/orderActions";
 
 const OrderScreen = () => {
   let params = useParams();
